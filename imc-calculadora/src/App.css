@@ -1,0 +1,48 @@
+body{
+  background-color: antiquewhite;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+
+
+.App{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.calculator-container {
+  margin: 20px auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+}
+
